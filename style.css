@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+html{
+    font-family: Raleway, Arial;
+}
+
+a{
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
