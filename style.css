@@ -21,7 +21,6 @@ a:link{
 
 ul{
     list-style: none;
-    
 }
 
 /*-------------------------------------------------------*/
@@ -187,4 +186,95 @@ nav{
     color: #0065FC;
     border: solid #F2F2F2;
     border-radius: 50%;
+}
+
+/*-------------------------------------------------------*/
+
+main{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section{
+    margin: 0 40px 0 0;
+}
+
+/*-------------------------------------------------------*/
+
+.hebergement{
+    position: relative;
+    display: flex;
+    width: 1175px;
+    height: 70%;
+    padding: 40px;
+    flex-direction: column;
+
+    background: #F2F2F2;
+    border-radius: 30px;
+}
+.heb_card_std{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 270px;
+    padding: 5px;
+    margin: 20px 0;
+
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px -15px black;
+}
+
+.hebergemnt_card{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.heb_card_std img{
+    width: 320px;
+    height: 150px;
+    border-radius: 30px 30px 0 0;
+}
+
+.heb_card_std i{
+    color: #0065FC;
+}
+
+.heb_card_std .empty i{
+    color: #F2F2F2;
+}
+
+.heb_card_std__txt{
+    padding-left: 20px;
+}
+
+.heb_card_std__txt h3{
+    font-size: 22px;
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
+
+.hebergement__more_item{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*-------------------------------------------------------*/
+
+.popular{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 835px;
+    padding: 40px;
+
+    background: #F2F2F2;
+    border-radius: 30px;
 }
