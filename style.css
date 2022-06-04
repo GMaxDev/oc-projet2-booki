@@ -194,25 +194,32 @@ main{
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 section{
     margin: 0 40px 0 0;
 }
 
+h3{
+    font-size: 22px;
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
 /*-------------------------------------------------------*/
 
 .hebergement{
     position: relative;
     display: flex;
-    width: 1175px;
-    height: 70%;
+    width: 62%;
+    height: 837px;
     padding: 40px;
     flex-direction: column;
 
     background: #F2F2F2;
     border-radius: 30px;
 }
+
 .heb_card_std{
     position: relative;
     display: flex;
@@ -242,22 +249,16 @@ section{
     border-radius: 30px 30px 0 0;
 }
 
-.heb_card_std i{
+.fa-solid.fa-star.fa-lg{
     color: #0065FC;
 }
 
-.heb_card_std .empty i{
+.fa-solid.fa-star.fa-lg.empty{
     color: #F2F2F2;
 }
 
 .heb_card_std__txt{
     padding-left: 20px;
-}
-
-.heb_card_std__txt h3{
-    font-size: 22px;
-    margin-bottom: -5px;
-    margin-top: 10px;
 }
 
 .hebergement__more_item{
@@ -271,10 +272,45 @@ section{
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 560px;
+    width: 33%;
     height: 835px;
     padding: 40px;
 
     background: #F2F2F2;
     border-radius: 30px;
+}
+
+.popular__title{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.popular_card_std{
+    position: relative;
+    display: flex;
+    width: auto;
+    height: 200px;
+    padding: 5px;
+    margin: 20px 0;
+
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px -15px black;
+}
+
+.popular_card_std a{
+    display: flex;
+}
+
+.popular_card_std img{
+    width: 180px;
+    height: auto;
+    border-radius: 30px 0 0 30px;
+}
+
+.popular_card_std_txt{
+    padding: 10px 0 0 20px;
 }
