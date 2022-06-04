@@ -247,6 +247,7 @@ h3{
     width: 320px;
     height: 150px;
     border-radius: 30px 30px 0 0;
+    object-fit: cover;
 }
 
 .fa-solid.fa-star.fa-lg{
@@ -254,7 +255,7 @@ h3{
 }
 
 .fa-solid.fa-star.fa-lg.empty{
-    color: #F2F2F2;
+    color: #d9d9d9;
 }
 
 .heb_card_std__txt{
@@ -309,8 +310,120 @@ h3{
     width: 180px;
     height: auto;
     border-radius: 30px 0 0 30px;
+    object-fit: cover;
 }
 
 .popular_card_std_txt{
+    display: flex;
+    flex-direction: column;
     padding: 10px 0 0 20px;
+}
+
+.popular_card_std_txt div{
+    position: absolute;
+    padding-top: 150px;
+}
+
+/*-------------------------------------------------------*/
+
+.activities_bloc{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+
+.activities_bloc_1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px -15px black;
+}
+
+.activities_bloc_1 h3{
+    padding: 10px 0 23px 20px;
+}
+
+.activities_bloc_1 img{
+    position: relative;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+.activities_bloc_2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+}
+
+.activities_bloc_2_1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    width: 400px;
+    margin-bottom: 60px;
+
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px -15px black;
+}
+
+.activities_bloc_2_2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 225px;
+    width: 400px;
+
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px -15px black;
+}
+
+.activities_bloc_2_3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    margin-bottom: 60px;
+
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px -15px black;
+}
+
+.activities_bloc_2 h3{
+    padding: 10px 0 23px 20px;
+}
+
+.activities_bloc_2_1 img{
+    position: relative;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+.activities_bloc_2_2 img{
+    position: relative;
+    height: 146px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+.activities_bloc_2_3 img{
+    position: relative;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+
 }
