@@ -198,10 +198,6 @@ main{
     width: 100%;
 }
 
-section{
-    margin: 0 40px 0 0;
-}
-
 h3{
     font-size: 22px;
     margin-bottom: -5px;
@@ -212,19 +208,28 @@ h3{
 .hebergement{
     position: relative;
     display: flex;
-    width: 62%;
-    height: 837px;
+    width: 63%;
+    height: auto;
     padding: 40px;
+    margin: 0 20px 0 0;
     flex-direction: column;
 
     background: #F2F2F2;
     border-radius: 30px;
 }
 
+.hebergemnt_card{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
 .heb_card_std{
     position: relative;
     display: flex;
-    flex-direction: column;
     width: 330px;
     height: 270px;
     padding: 5px;
@@ -233,15 +238,6 @@ h3{
     background-color: white;
     border-radius: 30px;
     box-shadow: 0 0 20px -15px black;
-}
-
-.hebergemnt_card{
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
 }
 
 .heb_card_std img{
