@@ -107,7 +107,7 @@ nav{
     position: relative;
     width: 420px;
     padding-left: 15px;
-    border-color: solid #F2F2F2;
+    border: 1px solid #F2F2F2;
     font-weight: bold;
     font-size: 20px;
 }
@@ -331,6 +331,7 @@ h3{
 }
 
 .activities_bloc{
+    gap: 20px;
     position: relative;
     display: flex;
     justify-content: space-between;
