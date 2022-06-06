@@ -163,8 +163,6 @@ nav{
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
-    z-index: 10;
-
 }
 
 /*-------------------------------------------------------*/
@@ -194,6 +192,7 @@ nav{
 main{
     position: relative;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 50px 0 50px;
     width: 100%;
@@ -212,7 +211,6 @@ h3{
     width: 63%;
     height: auto;
     padding: 40px;
-    margin: 0 20px 0 0;
     flex-direction: column;
 
     background: #F2F2F2;
@@ -271,7 +269,7 @@ h3{
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 33%;
+    max-width: 33%;
     height: 835px;
     padding: 40px;
 
@@ -349,7 +347,7 @@ h3{
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 24%;
     height: auto;
     overflow: hidden;
 
