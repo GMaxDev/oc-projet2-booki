@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="src/img/logo/Booki.png" alt="Logo Booki" class="logo">
+        <img src="src/img/logo/Booki@3x.png" alt="Logo Booki" class="logo">
         <nav>
             <ul class="nav_bar">
                 <li><a href="#">Hébergements</a></li>
@@ -23,15 +23,23 @@
             <form class="city_input" action="">
                 <span id="city_input_location_logo"><i class="fa-solid fa-location-dot fa-lg"></i></span>
                 <input type="text" name="text" id="location" placeholder="Marseille, France">
-                <input type="submit" value="Rechercher" name="Rechercher" id="search">
+                <!-- <input id="search" type="submit" value="Rechercher" name="Rechercher"> -->
+
+                <button id="search" type="submit">
+                    <input id="search_txt" type="submit" value="Rechercher" name="Rechercher">
+                    <i class="icon_search fa-solid fa-magnifying-glass"></i>
+                </button>
+                
             </form>
-            <form class="filter_input" action="">
+            <div class="filter_zone">
                 <h4>Filtres</h4>
-                <a href="#"><i class="fa-solid fa-money-bill-wave"></i><span>Économique</span></a>
-                <a href="#"><i class="fa-solid fa-child-reaching"></i><span>Familial</span></a>
-                <a href="#"><i class="fa-solid fa-heart"></i><span>Romantique</span></a>
-                <a href="#"><i class="fa-solid fa-dog"></i><span>Animaux autorisés</span></a>
-            </form>
+                <form class="filter_input" action="">
+                    <a href="#"><i class="fa-solid fa-money-bill-wave"></i><span>Économique</span></a>
+                    <a href="#"><i class="fa-solid fa-child-reaching"></i><span>Familial</span></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i><span>Romantique</span></a>
+                    <a href="#"><i class="fa-solid fa-dog"></i><span>Animaux autorisés</span></a>
+                </form>
+            </div>
             <p id="more_home"><span><i class="fa-solid fa-info"></i></span> Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
         <section class="hebergement">
