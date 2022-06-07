@@ -646,15 +646,6 @@ footer ul li{
         flex-direction: column;
     }
 
-    .hebergement{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-
-    .popular{
-        width: 100%;
-    }
-
     .activities h2{
         margin: 40px 0;
         height: auto;
@@ -672,5 +663,19 @@ footer ul li{
 
     .bloc_std img{
         height: 530px;
+    }
+}
+
+/*-------------------------------------------------------*/
+
+@media (max-width: 1420px){
+
+    .hebergement{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .popular{
+        width: 100%;
     }
 }
