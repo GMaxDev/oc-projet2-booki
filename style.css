@@ -6,9 +6,12 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     font-family: Raleway, Arial;
     margin: 0;
     width: 100%;
+    height: auto;
 }
 
 a{
@@ -221,6 +224,7 @@ main{
     flex-wrap: wrap;
     padding: 0 50px 0 50px;
     width: 100%;
+    height: auto;
 }
 
 h3{
@@ -242,7 +246,7 @@ h3{
     border-radius: 30px;
 }
 
-.hebergemnt_card{
+.hebergement_card{
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -328,7 +332,8 @@ h3{
 }
 
 .popular_card_std img{
-    width: 180px;
+    max-width: 100%;
+    width:180px;
     height: auto;
     border-radius: 30px 0 0 30px;
     object-fit: cover;
@@ -530,6 +535,10 @@ footer ul li{
 
     /*----------------*/
 
+    .search_filter{
+        order: -1;
+    }
+
     .filter_zone{
         flex-direction: column;
     }
@@ -541,13 +550,14 @@ footer ul li{
     /*----------------*/
 
     .hebergement{
+
         width: 100%;
         height: auto;
         flex-direction: row;
 
-        order: 1;
         flex-wrap: wrap;
         padding: 0 0 40px 0;
+        margin: 0 25px;
         background-color: white;
     }
 
@@ -555,12 +565,23 @@ footer ul li{
         width: 100%;
     }
 
-    .hebergement_card_std{
+    .heb_card_std {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 270px;
+    }
+
+    .heb_card_std img{
+        max-width: 100%;
+        width:1000px;
+        height: 150px;
     }
 
 /*----------------*/
     
     .popular{
+        order: -1;
         position: relative;
         padding: 0 25px;
         width: 100%;
@@ -573,14 +594,17 @@ footer ul li{
         font-size: 20px;
     }
 
-
-
 /*----------------*/
 
     .activities{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding: 0 25px;
+    }
+
+    .activities h2{
+        font-size: 32px;
     }
 
     .activities_bloc{
@@ -605,5 +629,11 @@ footer ul li{
 
     .activities_bloc_3 img{
         height: 220px;
+    }
+
+/*----------------*/
+
+    footer{
+        top: 1300px;
     }
 }
