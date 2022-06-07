@@ -637,3 +637,40 @@ footer ul li{
         top: 1300px;
     }
 }
+
+/*-------------------------------------------------------*/
+
+@media (max-width: 992px){
+    
+    main{
+        flex-direction: column;
+    }
+
+    .hebergement{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .popular{
+        width: 100%;
+    }
+
+    .activities h2{
+        margin: 40px 0;
+        height: auto;
+    }
+
+    .activities_bloc{
+        height: auto;
+    }
+
+    .bloc_std{
+        width: 100%;
+        height: 600px;
+        margin: 10px 0;
+    }
+
+    .bloc_std img{
+        height: 530px;
+    }
+}
