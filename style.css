@@ -166,6 +166,11 @@ h4{
     z-index: 1;
 }
 
+.filter_input a:hover {
+    color: white;
+    background-color: #0065FC;
+}
+
 .filter_input span{
     display: flex;
     align-items: center;
@@ -266,6 +271,12 @@ h3{
     background-color: white;
     border-radius: 30px;
     box-shadow: 0 0 20px -15px black;
+    transition: transform .1s;
+}
+
+.heb_card_std:hover{
+    transform: scale(1.05);
+
 }
 
 .heb_card_std img{
@@ -325,6 +336,11 @@ h3{
     background-color: white;
     border-radius: 30px;
     box-shadow: 0 0 20px -15px black;
+    transition: transform .1s;
+}
+
+.popular_card_std:hover{
+    transform: scale(1.05);
 }
 
 .popular_card_std a{
@@ -393,6 +409,11 @@ h3{
     background-color: white;
     border-radius: 30px;
     box-shadow: 0 0 20px -15px black;
+    transition: transform .1s;
+}
+
+.bloc_std:hover{
+    transform: scale(1.05 );
 }
 
 .activities_bloc_1{
@@ -556,8 +577,8 @@ footer ul li{
         flex-direction: row;
 
         flex-wrap: wrap;
-        padding: 0 0 40px 0;
-        margin: 0 25px;
+        padding: 0 25px 40px 20px;
+        /* margin: 0 25px; */
         background-color: white;
     }
 
@@ -600,7 +621,7 @@ footer ul li{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding: 0 25px;
+        padding: 0 25px 20px 25px;
     }
 
     .activities h2{
@@ -611,6 +632,7 @@ footer ul li{
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
+        height: 220px;
     }
 
     .bloc_std{
@@ -619,16 +641,8 @@ footer ul li{
         margin-bottom: 15px;
     }
 
-    .activities_bloc_1 img{
-        height: 220px;
-    }
-
-    .activities_bloc_2 img{
-        height: 220px;
-    }
-
-    .activities_bloc_3 img{
-        height: 220px;
+    .bloc_std img{
+        height: 78%;
     }
 
 /*----------------*/
@@ -640,7 +654,7 @@ footer ul li{
 
 /*-------------------------------------------------------*/
 
-@media (max-width: 992px){
+@media (min-width: 769px) and(max-width: 992px){
     
     main{
         flex-direction: column;
@@ -652,17 +666,18 @@ footer ul li{
     }
 
     .activities_bloc{
+        width: 100%;
         height: auto;
     }
 
     .bloc_std{
         width: 100%;
-        height: 600px;
+        height: 400px;
         margin: 10px 0;
     }
 
     .bloc_std img{
-        height: 530px;
+        height: 83%;
     }
 }
 
