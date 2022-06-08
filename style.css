@@ -134,6 +134,7 @@ h4{
 #search_txt{
     position: relative;
     background-color: #0065FC;
+    margin: 0;
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -518,11 +519,13 @@ footer ul li{
         opacity: 1;
     }
 
-    #search_txt{
-        display: none;
-    }
     #search .icon_search{
         display:inline-block;
+    }
+
+    #search_txt{
+        display: none;
+        margin-top: 5px;
     }
 
 /*----------------*/
@@ -654,7 +657,7 @@ footer ul li{
 
 /*-------------------------------------------------------*/
 
-@media (min-width: 769px) and(max-width: 992px){
+@media (min-width: 769px) and (max-width: 992px){
     
     main{
         flex-direction: column;
@@ -680,8 +683,6 @@ footer ul li{
         height: 83%;
     }
 }
-
-/*-------------------------------------------------------*/
 
 @media (max-width: 1420px){
 

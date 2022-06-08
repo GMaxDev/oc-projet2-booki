@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -20,20 +21,20 @@
         <div class="search_filter">
             <h1>Trouver votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
-            <form class="city_input" action="">
+            <form class="city_input" action="#">
                 <span id="city_input_location_logo"><i class="fa-solid fa-location-dot fa-lg"></i></span>
                 <input type="text" name="text" id="location" placeholder="Marseille, France">
                 <!-- <input id="search" type="submit" value="Rechercher" name="Rechercher"> -->
 
                 <button id="search" type="submit">
-                    <input id="search_txt" type="submit" value="Rechercher" name="Rechercher">
+                    <span id="search_txt">Rechercher</span>
                     <i class="icon_search fa-solid fa-magnifying-glass"></i>
                 </button>
                 
             </form>
             <div class="filter_zone">
                 <h4>Filtres</h4>
-                <form class="filter_input" action="">
+                <form class="filter_input" action="#">
                     <a href="#"><i class="fa-solid fa-money-bill-wave"></i><span>Économique</span></a>
                     <a href="#"><i class="fa-solid fa-child-reaching"></i><span>Familial</span></a>
                     <a href="#"><i class="fa-solid fa-heart"></i><span>Romantique</span></a>
@@ -42,8 +43,8 @@
             </div>
             <p id="more_home"><span><i class="fa-solid fa-info"></i></span> Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
-        <section class="hebergement">
-            <h2>Hébergements à Marseille</h2>
+        <section class="hebergement" id="hebergement_ancre">
+            <h2><a href="#hebergement_ancre">Hébergements à Marseille</a></h2>
             <div class="hebergement_card">
                 <article class="heb_card_std">
                     <a href="#">
@@ -188,7 +189,7 @@
                             <img src="src/img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel tout bleu et Blanc">
                         </span>
                         <div class="popular_card_std_txt">
-                            <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                            <h3>Hôtel Tout bleu et Blanc</h3>
                             <p>Nuit à partir de 68€</p>
                             <div>
                                 <i class="fa-solid fa-star fa-lg"></i>
@@ -202,8 +203,8 @@
                 </article>
             </div>
         </section>
-        <section class="activities">
-            <h2>Activités à Marseille</h2>
+        <section class="activities" id="activities_ancre">
+            <h2><a href="#activities_ancre">Activités à Marseille</a></h2>
             <div class="activities_bloc">
                 <a href="#" class="bloc_std activities_bloc_1">
                     <img src="src/img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
