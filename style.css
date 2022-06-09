@@ -699,3 +699,21 @@ footer ul li{
         width: 100%;
     }
 }
+
+/*-------------------------------------------------------*/
+
+@media (max-width: 410px){
+
+    .popular_card_std img{
+        width: 80px;
+    }
+
+    .popular_card__vertical_img{
+        min-width: 80px;
+
+    }
+
+    .popular_card__vertical_img img{
+        min-height: 200px;
+    }
+}
